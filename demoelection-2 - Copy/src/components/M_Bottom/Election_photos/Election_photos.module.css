@@ -1,0 +1,34 @@
+.elec-glblhd {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #e1261c;
+  font-weight: 500;
+}
+
+.elec-glblhd a {
+  display: flex;
+  color: #e1261c;
+  text-transform: uppercase;
+  align-items: center;
+}
+.elec-glblhd a span {
+  margin-left: 5px;
+  color: #001d42;
+  position: relative;
+}
+.elec-glblhd a span:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #e1261c;
+  bottom: -3px;
+  left: 0;
+}
+
+.elec-left {
+  float: left;
+  width: calc(100% - 320px);
+}

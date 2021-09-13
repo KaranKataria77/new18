@@ -1,0 +1,1 @@
+export const baseUrl = "https://www.news18.com";
